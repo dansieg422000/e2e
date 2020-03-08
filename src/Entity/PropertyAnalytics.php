@@ -5,7 +5,8 @@ namespace App\Entity;
 use Doctrine\ORM\Mapping as ORM;
 
 /**
- * @ORM\Entity(repositoryClass="App\Repository\PropertyAnalyticsRepository")
+ * @ORM\Entity
+ * @ORM\Table(name="property_analytics")
  */
 class PropertyAnalytics
 {

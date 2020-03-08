@@ -5,7 +5,8 @@ namespace App\Entity;
 use Doctrine\ORM\Mapping as ORM;
 
 /**
- * @ORM\Entity(repositoryClass="App\Repository\PropertiesRepository")
+ * @ORM\Entity
+ * @ORM\Table(name="properties")
  */
 class Properties
 {
