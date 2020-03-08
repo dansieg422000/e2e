@@ -17,7 +17,6 @@ class PropertyAnalyticsFormType extends AbstractType
 
     public function buildForm(FormBuilderInterface $builder, array $options)
     {
-//        parent::buildForm($builder, $options);
         $builder
             ->add('property_id')
             ->add('value')

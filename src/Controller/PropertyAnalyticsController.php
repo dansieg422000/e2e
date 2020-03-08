@@ -22,21 +22,8 @@ class PropertyAnalyticsController extends AbstractController
      *
      */
     public function getPropertyAnalyticsAction(Request $request) {
-//        die('Property Analytics');
+        // Process the form
         $form = $this->createForm(PropertyAnalyticsFormType::class);
-
-        // Process the form submitted
-//        $form->;
-
-        var_dump($form->getData());
-//        var_dump($form->isSubmitted());
-        exit;
-        if ($form->isSubmitted()) {
-            var_dump($request);
-        }
-
-        die;
-
 
     }
 
